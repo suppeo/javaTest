@@ -5,7 +5,7 @@ import base.Student;
 import java.util.ArrayList;
 
 /**
- * 查询效率较高
+ * ArrayList随机存取，查询效率较高
  */
 public class ArrayListTest {
     public static void test() {

@@ -1,4 +1,4 @@
-import maptest.TreeMapTest;
+import utils.CollectionsTest;
 
 /**
  * @author supe
@@ -7,7 +7,7 @@ import maptest.TreeMapTest;
 public class Main {
 
     public static void main(String[] args) {
-        TreeMapTest.test();
+        CollectionsTest.test();
     }
 }
 
