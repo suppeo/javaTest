@@ -1,4 +1,4 @@
-package stringTest;
+package stringtest;
 
 /**
  * String字符串是final类型，定义的字符串是常量不可修改，修改字符串即意味着新建字符串对象
@@ -21,15 +21,15 @@ public class StringTest {
                 System.out.println(chars[i]);
             }
         }
-        System.out.println("int转String:" + String.valueOf(123));
+        System.out.println("int转String:" + 123);
         System.out.println("字符串转大写：" + s1.toUpperCase());
 
         String s2 = "       http :// localhost : 8080   ";
         System.out.println("去除字符串两端空格：" + s2.trim());
         System.out.println("去除字符串中所有空格：" + s2.replace(" ", ""));
 
-        String s3 = new String("abc");
-        String s4 = new String("abc");
+        String s3 = "abc";
+        String s4 = "abc";
         System.out.println(s3 == s4);
         System.out.println(s3.equals(s4));
 

@@ -1,4 +1,4 @@
-import utils.CollectionsTest;
+import streamtest.StreamTest;
 
 /**
  * @author supe
@@ -7,7 +7,7 @@ import utils.CollectionsTest;
 public class Main {
 
     public static void main(String[] args) {
-        CollectionsTest.test();
+        StreamTest.test();
     }
 }
 

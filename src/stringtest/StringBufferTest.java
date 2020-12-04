@@ -1,4 +1,4 @@
-package stringTest;
+package stringtest;
 
 /**
  * StringBuffer类似字符串容器可以对字符串内容和长度进行修改，不会新建StringBuffer对象，
